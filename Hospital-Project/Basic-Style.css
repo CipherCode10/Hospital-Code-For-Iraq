@@ -1,0 +1,261 @@
+@font-face
+{
+font-family:cha;
+src: url(static/Fonts/chalet.ttf);
+}
+
+/*    Created by : Ahmed yaseen  ( Cipher_Code )      */
+
+
+.Body
+{
+background-color:rgba(176,224,230,.3);
+background-size:cover;
+background-attachment:fixed;
+}
+
+.fonav
+{
+font-size:20px;
+font-family:'Univers 55', 'Franklin Gothic Demi' , arial;
+background-color:rgba(70,130,180,.1);
+}
+
+.con1
+{
+margin-top:20px;
+padding:10px;
+background-color:rgba(173,216,230,.6);
+border-radius:10px;
+}
+
+.back
+{
+  background-color:rgba(135,206,235,.2);
+  background-size:cover;
+}
+
+.bcolo
+{
+background-color:rgba(0, 123, 255,.7);
+}
+
+.bcolo:hover
+{
+background-color:rgba(0, 123, 255,.7);
+}
+
+.linknav
+{
+  color:white;
+}
+
+.p1
+{
+  font-family:'Century Gothic' , arial;
+  font-size:20px;
+  font-weight:bold;
+  text-align: left;
+}
+
+.Logo1
+{
+  border-radius:100%;
+}
+
+.grid
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.Parg-Percen
+{
+  margin-left:20px;
+}
+
+.percentag
+{
+  margin-top:10px;
+  margin-left:20px;
+  width:90%;
+  height:80%;
+  border-radius:10px;
+}
+
+.Line
+{
+  width:1000px;
+}
+
+.imge1
+{
+  border-radius:10px;
+  width:100%;
+  height:75%;
+  margin-right:30px;
+}
+
+.footere1p , .footere2p , .footere3p
+{
+  padding-right:25px;
+  font-size:20px;
+  text-align:center;
+}
+
+.footereBack
+{
+  border-radius:10px;
+  background-color:#e7f5f7;
+}
+
+/* Submit Page */
+
+.S-Body
+{
+background-color:rgba(0,128,128,.2);
+font-family: arial;
+font-size:20px;
+}
+
+.Retico
+{
+  margin-left:30px;
+  cursor:pointer;
+}
+
+.butocolor
+{
+  background-color:#5B92EC;
+  color:white;
+  font-weight:bold;
+}
+
+/*  dbConnect  */
+
+.form-con
+{
+  margin-top:40px;
+}
+
+
+/* Cancer Types */
+
+.T-Body
+{
+  background-color:rgba(176,224,230,.3);
+  background-size:cover;
+  background-attachment:fixed;
+}
+
+.T-Con
+{
+  margin-top:40px;
+  background-color:#C6E9FB;
+}
+
+.T-Head
+{
+  font-size:30px;
+  font-weight:bold;
+  font-family:'Arial Rounded MT Bold' , arial;
+}
+
+.T-grid
+{
+    text-align:left;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.T-Other-C
+{
+  text-align:left;
+}
+
+.T-Other-C ol li
+{
+  list-style:disc;
+}
+
+.Cancer-Types
+{
+  margin-top:20px;
+  border-radius:10px;
+}
+
+/* Help Patients */
+
+.H-Con
+{
+margin-top:70px;
+padding:10px;
+background-color:rgba(173,216,230,.6);  /* rgba(173,216,230,.6) */
+border-radius:10px;
+}
+
+.H-back
+{
+  background-color:rgba(173,216,230,.1);
+  background-size:cover;
+}
+
+/* Type of TreatMents */
+
+
+.T-Body
+{
+  background-color:rgba(176,224,230,.3);
+  background-size:cover;
+  background-attachment:fixed;
+}
+
+.T-ParagJ
+{
+  border-radius:10px;
+  margin-top:50px;
+  background-color:rgba(176,224,230,.3);
+}
+
+.T-p
+{
+  padding:15px;
+  border-radius:10px;
+  background-image:url('static/pic/T-P-Parag.svg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  font-weight:600px;
+  font-size:20px;
+  font-family:'Blue Highway';
+}
+
+/* About Us */
+
+.A-Body
+{
+  background-image:url('static/pic/About-B.svg');
+  background-size:cover;
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+}
+
+.A-grid
+{
+  margin-top:80px;
+  display: grid;
+  grid-template-columns:repeat(1, 1fr);
+  grid-gap:20px;
+}
+
+.A-Footergrid
+{
+  display:grid;
+  grid-template-columns:repeat(1, 1fr);
+  grid-gap:20px;
+}
