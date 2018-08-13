@@ -1,3 +1,10 @@
+<?php
+
+session_start();
+
+?>
+
+
 <!Doctype html>
  <html>
 <head>
@@ -198,3 +205,11 @@
  </body>
 
  </html>
+
+
+ <?php
+
+ session_unset();
+ session_destroy();
+
+ ?>
